@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BS Investment</title>
+</head>
+<body>
+
+    <h2>Register</h2>
+
+    <form id="registerForm">
+        <input type="text" id="name" placeholder="Full Name" required><br><br>
+        <input type="email" id="email" placeholder="Email" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <h3 id="message"></h3>
+
+    <hr>
+
+    <h2>Dashboard</h2>
+    <p>Total Profit: ₦<span id="profit">0</span></p>
+
+    <button onclick="loadProfit()">Load Profit</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
